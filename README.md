@@ -22,15 +22,9 @@ It is still an open question in mathematics whether every positive integer event
 
 - [JDK](https://openjdk.org/) 17 or newer (uses modern Java language features)
 
-## Compile and run
+## How to Run
 
 From the repository root:
 
-```bash
 javac -d out -sourcepath src/main/java src/main/java/collatz/app/CollatzExplorerApp.java
 java -cp out collatz.app.CollatzExplorerApp
-```
-
-The `out` directory holds compiled `.class` files; it is ignored by Git (see `.gitignore`).
-
-On Windows **PowerShell**, the same commands work if `javac` and `java` are on your `PATH`.
